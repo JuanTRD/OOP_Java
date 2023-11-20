@@ -3,7 +3,7 @@ import src.MovablePoint;
 public class App {
     public static void main(String[] args){
         MovablePoint p = new MovablePoint(5,6,1,1);
-        System.out.println(p);
+        System.out.println(p.toString(getSpeed));
         p.getSpeed();
     }
 }
